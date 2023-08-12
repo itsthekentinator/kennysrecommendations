@@ -1,0 +1,31 @@
+/* styles.css */
+body {
+  background-color: #0d98ba;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.content {
+  text-align: center;
+}
+
+.button {
+  margin-top: 20px;
+  padding: 20px 40px;
+  font-size: 24px;
+  background-color: #FFD700; /* Gold */
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #FFA500; /* Darker gold on hover */
+}
