@@ -9,9 +9,18 @@
 <body>
   <div class="content">
     <h1>Kenny's Recommendations 💕</h1>
-    <button class="button" id="musicButton" onclick="goToMusic()">Music</button>
-    <button class="button" id="youtubeButton" onclick="https://youtube.com/playlist?list=PLxctOMuFvpkcuKlV-E1NwVQLfaGzul1YU">Youtube</button>
+    <button class="button" id="musicButton" onclick="goToMusic()">Apple Music</button>
+    <button class="button" id="youtubeButton" onclick="goToYouTube()">YouTube</button>
   </div>
   <script src="script.js"></script>
+  <script>
+    function goToMusic() {
+      window.location.href = "https://music.apple.com/jp/playlist/driving-at-dusk/pl.u-b3b8DA4hyWAjWlW?l=en-US";
+    }
+    
+    function goToYouTube() {
+      window.open("https://youtube.com/playlist?list=PLxctOMuFvpkcuKlV-E1NwVQLfaGzul1YU");
+    }
+  </script>
 </body>
 </html>
